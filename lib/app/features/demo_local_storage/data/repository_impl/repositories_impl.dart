@@ -1,7 +1,7 @@
-import 'package:hive_demo/app/features/demo_local_storage/data/data_source/local/hive_local_storage.dart';
 import 'package:hive_demo/app/features/demo_local_storage/domain/repository/repository.dart';
+import '../data_source/data_source_interface/local/hive_local_storage.dart';
+import '../data_source/data_source_interface/local/hive_model_data.dart';
 
-import '../data_source/local/hive_model_data.dart';
 
 class RepositoryImpl implements Repository {
   @override
