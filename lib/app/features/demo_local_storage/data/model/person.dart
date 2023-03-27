@@ -1,15 +1,16 @@
 import 'package:hive/hive.dart';
-part 'people.g.dart';
+
+part 'person.g.dart';
 
 @HiveType(typeId: 1)
-class People {
+class Person {
   @HiveField(0)
   final String name;
 
   @HiveField(1)
   final String country;
 
-  People({
+  Person({
     required this.name,
     required this.country,
   });
